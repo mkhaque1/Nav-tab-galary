@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    padding-bottom: 80px;
+    justify-content: center;
+}
+.projects{
+   
+ }
+ .p_title{
+     margin-bottom: 20px;
+ }
+ .nav_item{
+     margin: 0 auto !important;
+ }
+ .nav_item li a {
+     cursor: pointer;
+     margin-top: 40px;
+     margin-bottom: 30px;
+     margin-left: 15px;
+     line-height: 30px;
+     text-transform: uppercase;
+     border: 1px solid #333333;
+     transition: 0.3s ease;
+ }
+ .nav_item li a:hover{
+    color: #fff;
+    background-color: #8e8e8e;
+ }
+ .p_img{
+     margin-bottom: 35px;
+     position: relative;
+     overflow: hidden;
+     cursor: pointer;
+ }
+ .p_img img{
+     width: 100%;
+ }
+ .overlay{
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     position: absolute;
+     top: 0;
+     opacity: 0;
+     transition: all 0.5s;
+ }
+ .o_icon{
+     position: absolute;
+     right: 43%;
+     bottom: 50%;
+ }
+ .o_icon i{
+     font-size: 60px;
+     color: #fff;
+ }
+ .o_text{
+     padding: 10px 0px;
+     background-color: #fff;
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+ }
+ .o_text h2{
+     font-size: 18px;
+     line-height: 27px;
+     text-transform: uppercase;
+     margin-left: 10px;
+     color: #333333;
+ }
+ .o_text p{
+     margin-left: 10px;
+     color: #8e8e8e;
+ }
+ .p_img:hover .overlay{
+     opacity: 1;
+ }
